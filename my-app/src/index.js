@@ -14,10 +14,13 @@ import LandingPage from './chapter_09/LandingPage';
 import AttendanceBook from './chapter_10/AttendanceBook';
 import SignUp from './chapter_11/SignUp';
 import Calculator from './chapter_12/calculator';
+import ProfileCard from './chpater_13/ProfileCard';
+import DarkOrLight from './chpater_14/DarkOrLight';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Calculator />
+    <DarkOrLight />
   </React.StrictMode>,
   document.getElementById('root')
 );

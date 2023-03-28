@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components"
 
-const styledButton = styled.button`
+const StyledButton = styled.button`
     padding: 8px 16px;
     font-size: 16px;
     border-width: 1px;
@@ -9,7 +9,7 @@ const styledButton = styled.button`
     cursor: pointer;
 `;
 
-function Button(porps) {
+function Button(props) {
     const { title, onClick } = props;
 
     return <StyledButton onClick={onClick}>{title || "button"}</StyledButton>;
